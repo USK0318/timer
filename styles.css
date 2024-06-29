@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-image: url('https://wallpapers.com/images/hd/vanishing-wall-clock-tiempo-background-z9h54ahqku26rwdd.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#container {
+    text-align: center;
+}
+
+.card {
+    background-color: #fff;
+    padding: 60px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#timeSelectors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#timeSelectors input {
+    width: 50px;
+    font-size: 1.5rem;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#timeSelectors span {
+    font-size: 1.5rem;
+    margin: 5px;
+}
+
+#timer {
+    font-size: 2rem;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#timer span {
+    margin: 0 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #1e4651;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #21a1f1;
+}
